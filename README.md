@@ -1,3 +1,7 @@
+# @altitude-ui
+
+Design system for survivors application
+
 # Components
 
 - [X] Text
