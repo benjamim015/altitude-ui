@@ -1,0 +1,33 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@altitude-ui/eslint-config": "*",
+    "@altitude-ui/react": "*",
+    "@altitude-ui/tokens": "*",
+    "@altitude-ui/ts-config": "*",
+    "@storybook/addon-a11y": "^7.0.6",
+    "lucide-react": "^0.176.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.6",
+    "@storybook/addon-interactions": "^7.0.6",
+    "@storybook/addon-links": "^7.0.6",
+    "@storybook/blocks": "^7.0.6",
+    "@storybook/react": "^7.0.6",
+    "@storybook/react-vite": "^7.0.6",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@vitejs/plugin-react": "^4.0.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.6",
+    "vite": "^4.3.1"
+  },
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build"
+  }
+}

@@ -1,0 +1,3 @@
+{
+  "extends": "@altitude-ui/eslint-config"
+}
